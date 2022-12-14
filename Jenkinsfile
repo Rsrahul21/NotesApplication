@@ -4,7 +4,7 @@ try {
     node {
       
         stage('Preparation') { 
-            git credentialsId: 'fef4159e-285b-45d9-80ca-5981c4576ba5', url: 'https://github.com/prashant-bhatasana/demoApp/'
+            git credentialsId: 'fef4159e-285b-45d9-80ca-5981c4576ba5', url: 'https://github.com/Rsrahul21/NotesApplication.git'
         }
       
         stage('Dependencies') {
